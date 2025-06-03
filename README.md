@@ -5,7 +5,7 @@ Official code for paper: Contrastive Craph Modeling for Cross-domain Few-shot Me
   
 
 <p align="center">
-    <img src="./C-Graph.png" alt="C-Graph" width="600"/> <br />
+    <img src="./C-Graph.png" alt="C-Graph" width="700"/> <br />
     <em> 
     Figure 1. Overview of Our Proposed Method. 
     </em>
@@ -62,7 +62,7 @@ Pre-processing is performed according to [Ouyang et al.](https://github.com/chen
 Run `./script/test_<direction>.sh` 
 
 ### ✅ TODO List
-- [ ] Release model code.
+- [x] Release model code.
 - [ ] Release model weights.
 - [ ] Release model prediction maps.
 
