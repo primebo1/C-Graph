@@ -1,6 +1,6 @@
 # C-Graph
 
-Official code for paper: Contrastive Craph Modeling for Cross-domain Few-shot Medical Image Segmentaiton
+Official code for paper: Contrastive Craph Modeling for Cross-domain Few-shot Medical Image Segmentation
 
   
 
