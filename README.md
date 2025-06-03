@@ -4,12 +4,7 @@ Official code for paper: Contrastive Craph Modeling for Cross-domain Few-shot Me
 
   
 
-<p align="center">
-    <img src="./C-Graph.png" alt="C-Graph" width="700"/> <br />
-    <em> 
-    Figure 1. Overview of Our Proposed Method. 
-    </em>
-</p>
+![](./C-Graph.png)
 
 
 - [News!] 2025-06-03: We have uploaded the full code.
