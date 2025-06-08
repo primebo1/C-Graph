@@ -9,6 +9,11 @@ Official code for paper: Contrastive Craph Modeling for Cross-domain Few-shot Me
 
 - [News!] 2025-06-03: We have uploaded the full code.
 
+### ✅ TODO List
+- [x] Release model code.
+- [ ] Release model weights.
+- [ ] Release model prediction maps.
+
 ## 📋 Abstract
 Cross-domain few-shot medical image segmentation (CD-FSMIS) offers a promising and data-efficient solution for medical applications where annotations are severely scarce and multimodal analysis is required.
 However, existing methods typically filter out domain-specific information to improve generalization, which inadvertently limits cross-domain performance and degrades source-domain accuracy.
@@ -55,13 +60,6 @@ Pre-processing is performed according to [Ouyang et al.](https://github.com/chen
 
 ### 🔍  Inference
 Run `./script/test_<direction>.sh` 
-
-### ✅ TODO List
-- [x] Release model code.
-- [ ] Release model weights.
-- [ ] Release model prediction maps.
-
-
 
 
 ## 🥰 Acknowledgements
