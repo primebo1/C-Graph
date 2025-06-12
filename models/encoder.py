@@ -14,7 +14,7 @@ class Res50Encoder(nn.Module):
         # using pretrained model's weights
         if pretrained_weights == 'COCO':
             self.pretrained_weights = torch.load(
-                "/home/primebo/Desktop/trans/checkpoints/deeplabv3_resnet50_coco-cd0a2569.pth", map_location='cuda:0')  # pretrained on COCO, recommended
+                ".../checkpoints/deeplabv3_resnet50_coco-cd0a2569.pth", map_location='cuda:0')  # pretrained on COCO, recommended
         elif pretrained_weights == 'ImageNet':
             self.pretrained_weights = torch.load(
                 ".../checkpoints/resnet50-19c8e357.pth", map_location='cpu')  # pretrained on ImageNet
