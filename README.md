@@ -8,11 +8,13 @@ Official code for paper: Contrastive Craph Modeling for Cross-domain Few-shot Me
 
 
 - [News!] 2025-06-03: We have uploaded the full code.
+- [News!] 2025-06-13: We have uploaded the model weights and prediction maps. As of now, all our experimental code and results have been open-sourced. We are still actively updating this repository for better result presentation. Stay tuned!
+
 
 ### ✅ TODO List
 - [x] Release model code.
-- [ ] Release model weights.
-- [ ] Release model prediction maps.
+- [x] Release model weights.
+- [x] Release model prediction maps.
 
 ## 📋 Abstract
 Cross-domain few-shot medical image segmentation (CD-FSMIS) offers a promising and data-efficient solution for medical applications where annotations are severely scarce and multimodal analysis is required.
@@ -51,6 +53,7 @@ Please download:
 
 Pre-processing is performed according to [Ouyang et al.](https://github.com/cheng-01037/Self-supervised-Fewshot-Medical-Image-Segmentation/tree/2f2a22b74890cb9ad5e56ac234ea02b9f1c7a535) and we follow the procedure on their GitHub repository.
 
+### 
 
 ### 🔥 Training
 1. Compile `./data/supervoxels/felzenszwalb_3d_cy.pyx` with cython (`python ./data/supervoxels/setup.py build_ext --inplace`) and run `./data/supervoxels/generate_supervoxels.py`
@@ -58,8 +61,24 @@ Pre-processing is performed according to [Ouyang et al.](https://github.com/chen
 3. Run `./script/train_<direction>.sh`, for example: `./script/train_ct2mr.sh`
 
 
-### 🔍  Inference
-Run `./script/test_<direction>.sh` 
+### 🔍 Inference
+
+1. *(Optional)* You can download our [pretrained models](https://drive.google.com/drive/folders/1Bi5o3Lwe7n6JjVlSdh31HP9boPCOxhND?usp=sharing) for different domains:
+
+   * **Abdominal CT**: [Google Drive](https://drive.google.com/drive/folders/1LDm3-hndaWiVnwrpxSP3jL_K2wKhoRN8?usp=sharing)
+   * **Abdominal MRI**: [Google Drive](https://drive.google.com/drive/folders/1fi9DfOlYWR3-r6czu-oT_ZpBjHmrs3bj?usp=sharing)
+   * **Cardiac LGE**: [Google Drive](https://drive.google.com/drive/folders/1dOP3yja37S6lWllXT8fG_BviuzEg7Eiz?usp=sharing)
+   * **Cardiac b-SSFP**: [Google Drive](https://drive.google.com/drive/folders/1bGkvGX9D9IM5K4inTzQnkTZEKHCilDhb?usp=sharing)
+
+   After downloading, update the path accordingly in the test script.
+
+2. Run the following script to perform inference:
+
+   ```bash
+   ./script/test_<direction>.sh
+   ```
+3.  🖼️ Prediction maps for the four cross-domain directions are available [**here**](https://drive.google.com/drive/folders/1mHLGbVeI-ghvsbGB19QsGkz0hDX5WWuP?usp=sharing) — perfect for a quick glance!
+
 
 
 ## 🥰 Acknowledgements
