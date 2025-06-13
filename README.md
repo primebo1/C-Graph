@@ -72,11 +72,8 @@ Pre-processing is performed according to [Ouyang et al.](https://github.com/chen
 
    After downloading, update the path accordingly in the test script.
 
-2. Run the following script to perform inference:
+2. Run the following script to perform inference: `./script/test_<direction>.sh`
 
-   ```bash
-   ./script/test_<direction>.sh
-   ```
 3.  🖼️ Prediction maps for the four cross-domain directions are available [**here**](https://drive.google.com/drive/folders/1mHLGbVeI-ghvsbGB19QsGkz0hDX5WWuP?usp=sharing) — perfect for a quick glance!
 
 
