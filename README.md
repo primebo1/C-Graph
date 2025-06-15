@@ -68,7 +68,7 @@ Pre-processing is performed according to [Ouyang et al.](https://github.com/chen
    * **Abdominal CT**: [Google Drive](https://drive.google.com/drive/folders/1LDm3-hndaWiVnwrpxSP3jL_K2wKhoRN8?usp=sharing)
    * **Abdominal MRI**: [Google Drive](https://drive.google.com/drive/folders/1fi9DfOlYWR3-r6czu-oT_ZpBjHmrs3bj?usp=sharing)
    * **Cardiac LGE**: [Google Drive](https://drive.google.com/drive/folders/1dOP3yja37S6lWllXT8fG_BviuzEg7Eiz?usp=sharing)
-   * **Cardiac b-SSFP**: [Google Drive](https://drive.google.com/drive/folders/1bGkvGX9D9IM5K4inTzQnkTZEKHCilDhb?usp=sharing)
+   * **Cardiac b-SSFP**: [Google Drive](https://drive.google.com/drive/folders/1ZQ0p2J8xLu0e16iKzOofqF6mRw-UaMh-?usp=sharing)
 
    After downloading, update the path accordingly in the test script.
 
