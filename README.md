@@ -18,20 +18,22 @@ Official code for paper: Contrastive Graph Modeling for Cross-domain Few-shot Me
 - [x] Release model weights.
 - [x] Release model prediction maps.
 
+## 🤓 Modeling Anatomy as Graphs
+<p align="center">
+  <img src="visualize_graph.png" width="800">
+  <br>
+
+TL;DR: Anatomical structures are highly consistent across medical imaging domains and can be modeled as graphs. Compared to domain information filtering methods <a href="https://github.com/primebo1/FAMNet">[1]</a> <a href="https://github.com/YazhouZhu19/RobustEMD">[2]</a>, our approach yields superior cross-domain generalization while preserving strong source-domain specialization.
+
+</p>
+
+
 ## 📋 Abstract
 Cross-domain few-shot medical image segmentation (CD-FSMIS) offers a promising and data-efficient solution for medical applications where annotations are severely scarce and multimodal analysis is required.
 However, existing methods typically filter out domain-specific information to improve generalization, which inadvertently limits cross-domain performance and degrades source-domain accuracy.
 To address this, we present Contrastive Graph Modeling (C-Graph), a framework that leverages the structural consistency of medical images as a reliable domain-transferable prior. We represent image features as graphs, with pixels as nodes and semantic affinities as edges. A Structural Prior Graph (SPG) layer is proposed to capture and transfer target-category node dependencies and enable global structure modeling through explicit node interactions. Building upon SPG layers, we introduce a Subgraph Matching Decoding (SMD) mechanism that exploits semantic relations among nodes to guide prediction. Furthermore, we design a Confusion-minimizing Node Contrast (CNC) loss to mitigate node ambiguity and subgraph heterogeneity by contrastively enhancing node discriminability in the graph space.
 Our method significantly outperforms prior CD-FSMIS approaches across multiple cross-domain benchmarks, achieving state-of-the-art performance while simultaneously preserving strong segmentation accuracy on the source domain.
 
-## 🤓 Modeling Anatomy as Graphs
-<p align="center">
-  <img src="visualize_graph.png" width="800">
-  <br>
-  <em>
-Anatomical structures are highly consistent across medical imaging domains and can be modeled as graphs. Compared to domain information filtering methods <a href="https://github.com/primebo1/FAMNet">[1]</a> <a href="https://github.com/YazhouZhu19/RobustEMD">[2]</a>, our approach yields superior cross-domain generalization while preserving strong source-domain specialization.
-  </em>
-</p>
 
 ## ⏳ Quick start
 
