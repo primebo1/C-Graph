@@ -1,6 +1,8 @@
 # C-Graph
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv)]()
+[![Xplore](https://img.shields.io/badge/Xplore-Paper-blue)]()
 
-Official code for paper: Contrastive Craph Modeling for Cross-domain Few-shot Medical Image Segmentation
+Official code for paper: Contrastive Graph Modeling for Cross-domain Few-shot Medical Image Segmentation
 
   
 
@@ -9,7 +11,7 @@ Official code for paper: Contrastive Craph Modeling for Cross-domain Few-shot Me
 
 - [News!] 2025-06-03: We have uploaded the full code.
 - [News!] 2025-06-13: We have uploaded the model weights and prediction maps. As of now, all our experimental code and results have been open-sourced. We are still actively updating this repository for better result presentation. Stay tuned!
-
+- [News!] 2025-12-25 🎄: Our paper has been accepted for publication in IEEE Transactions on Medical Imaging! 🎅🎁
 
 ### ✅ TODO List
 - [x] Release model code.
@@ -22,6 +24,15 @@ However, existing methods typically filter out domain-specific information to im
 To address this, we present Contrastive Graph Modeling (C-Graph), a framework that leverages the structural consistency of medical images as a reliable domain-transferable prior. We represent image features as graphs, with pixels as nodes and semantic affinities as edges. A Structural Prior Graph (SPG) layer is proposed to capture and transfer target-category node dependencies and enable global structure modeling through explicit node interactions. Building upon SPG layers, we introduce a Subgraph Matching Decoding (SMD) mechanism that exploits semantic relations among nodes to guide prediction. Furthermore, we design a Confusion-minimizing Node Contrast (CNC) loss to mitigate node ambiguity and subgraph heterogeneity by contrastively enhancing node discriminability in the graph space.
 Our method significantly outperforms prior CD-FSMIS approaches across multiple cross-domain benchmarks, achieving state-of-the-art performance while simultaneously preserving strong segmentation accuracy on the source domain.
 
+## 🤓 Anatomy Is a Graph!
+<p align="center">
+  <img src="visula_graph_combine.svg" width="600">
+  <br>
+  <em>
+Visualization of the graphs constructed from intermediate features, consistent with the graph structure employed in the model pipeline. (a) Target domain images and zoomed-in view of the yellow box regions.  (b) Graph representations over feature map coordinates. (c) UMAP visualization of the graphs in feature space. All graphs are constructed with $k=9$. Nodes with the same color denote the same entity across the graphs in (b) and (c).
+The edges collectively reflect anatomical semantics in the target-domain image, indicating that the graph effectively captures its underlying structural patterns. 
+  </em>
+</p>
 
 ## ⏳ Quick start
 
