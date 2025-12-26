@@ -29,7 +29,7 @@ Our method significantly outperforms prior CD-FSMIS approaches across multiple c
   <img src="visualize_graph.png" width="800">
   <br>
   <em>
-Anatomical structures are highly consistent across medical imaging domains and can be modeled as graphs. Compared to domain information filtering methods [[1]](https://github.com/primebo1/FAMNet), [[2]](https://github.com/YazhouZhu19/RobustEMD), our approach yields superior cross-domain generalization while preserving strong source-domain specialization.
+Anatomical structures are highly consistent across medical imaging domains and can be modeled as graphs. Compared to domain information filtering methods <a href="https://github.com/primebo1/FAMNet">[1]</a> <a href="https://github.com/YazhouZhu19/RobustEMD">[2]</a>, our approach yields superior cross-domain generalization while preserving strong source-domain specialization.
   </em>
 </p>
 
