@@ -29,7 +29,7 @@ Our method significantly outperforms prior CD-FSMIS approaches across multiple c
   <img src="visualize_graph.png" width="800">
   <br>
   <em>
-The anatomical structures in medical images can be learned as graphs and serve as transferable priors across different imaging domains.
+Anatomical structures are highly consistent across medical imaging domains and can be modeled as graphs. Compared to domain information filtering methods [[1]](https://github.com/primebo1/FAMNet), [[2]](https://github.com/YazhouZhu19/RobustEMD), our approach yields superior cross-domain generalization while preserving strong source-domain specialization.
   </em>
 </p>
 
