@@ -26,7 +26,7 @@ Our method significantly outperforms prior CD-FSMIS approaches across multiple c
 
 ## 🤓 Anatomy Is a Graph!
 <p align="center">
-  <img src="visula_graph_combine.svg" width="600">
+  <img src="visualize_graph.svg" width="600">
   <br>
   <em>
 Visualization of the graphs constructed from intermediate features, consistent with the graph structure employed in the model pipeline. (a) Target domain images and zoomed-in view of the yellow box regions.  (b) Graph representations over feature map coordinates. (c) UMAP visualization of the graphs in feature space. All graphs are constructed with $k=9$. Nodes with the same color denote the same entity across the graphs in (b) and (c).
