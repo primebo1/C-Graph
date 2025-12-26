@@ -23,7 +23,7 @@ Official code for paper: Contrastive Graph Modeling for Cross-domain Few-shot Me
   <img src="visualize_graph.png" width="800">
   <br>
 
-TL;DR: Anatomical structures are highly consistent across medical imaging domains and can be modeled as graphs. Compared to domain information filtering methods <a href="https://github.com/primebo1/FAMNet">[1]</a> <a href="https://github.com/YazhouZhu19/RobustEMD">[2]</a>, our approach yields superior cross-domain generalization while preserving strong source-domain specialization.
+<b>TL;DR:</b> Anatomical structures are highly consistent across medical imaging domains and can be modeled as graphs. Compared to domain information filtering methods <a href="https://github.com/primebo1/FAMNet">[1]</a> <a href="https://github.com/YazhouZhu19/RobustEMD">[2]</a>, our approach yields superior cross-domain generalization while preserving strong source-domain specialization.
 
 </p>
 
