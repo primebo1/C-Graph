@@ -24,9 +24,9 @@ However, existing methods typically filter out domain-specific information to im
 To address this, we present Contrastive Graph Modeling (C-Graph), a framework that leverages the structural consistency of medical images as a reliable domain-transferable prior. We represent image features as graphs, with pixels as nodes and semantic affinities as edges. A Structural Prior Graph (SPG) layer is proposed to capture and transfer target-category node dependencies and enable global structure modeling through explicit node interactions. Building upon SPG layers, we introduce a Subgraph Matching Decoding (SMD) mechanism that exploits semantic relations among nodes to guide prediction. Furthermore, we design a Confusion-minimizing Node Contrast (CNC) loss to mitigate node ambiguity and subgraph heterogeneity by contrastively enhancing node discriminability in the graph space.
 Our method significantly outperforms prior CD-FSMIS approaches across multiple cross-domain benchmarks, achieving state-of-the-art performance while simultaneously preserving strong segmentation accuracy on the source domain.
 
-
+## 🤓 Modeling Anatomy as Graphs
 <p align="center">
-  <img src="visualize_graph.png" width="600">
+  <img src="visualize_graph.png" width="800">
   <br>
   <em>
 The anatomical structures in medical images can be learned as graphs and serve as transferable priors across different imaging domains.
