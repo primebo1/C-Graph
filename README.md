@@ -1,5 +1,5 @@
 # C-Graph
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv)]()
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv)](http://arxiv.org/abs/2512.21683)
 [![Xplore](https://img.shields.io/badge/Xplore-Paper-blue)]()
 
 Official code for paper: Contrastive Graph Modeling for Cross-domain Few-shot Medical Image Segmentation
@@ -93,6 +93,17 @@ Pre-processing is performed according to [Ouyang et al.](https://github.com/chen
 ## 🥰 Acknowledgements
 Our code is built upon the works of [SSL-ALPNet](https://github.com/cheng-01037/Self-supervised-Fewshot-Medical-Image-Segmentation), [ADNet](https://github.com/sha168/ADNet) and [ViG](https://github.com/huawei-noah/Efficient-AI-Backbones), we appreciate the authors for their excellent contributions!
 
-
+## 📝 Citation
+If you use this code for your research or project, please consider citing our paper. Thanks!🥂:
+```bibtex
+@article{bo2025CGraph,
+  title={Contrastive Graph Modeling for Cross-Domain Few-Shot Medical Image Segmentation}, 
+  author={Yuntian Bo and Tao Zhou and Zechao Li and Haofeng Zhang and Ling Shao},
+  year={2025},
+  eprint={2512.21683},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+}
+```
 
 
